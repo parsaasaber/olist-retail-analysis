@@ -108,17 +108,7 @@ olist-retail-analysis/
 ├── data_loader.py
 ├── setup_db.py
 ├── sql/
-│   ├── monthly_sales.sql
-│   ├── category_sales.sql
-│   └── geographic_sales.sql
-├── data/
-│   ├── raw/                 # Downloaded CSVs; not committed
-│   └── olist.db             # Generated locally; not committed
 ├── screenshots/
-│   ├── dash_overview1.png
-│   ├── dash_overview2.png
-│   ├── monthly_delivered_orders_sales.png
-│   └── monthly_sales_growth.png
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -129,14 +119,14 @@ olist-retail-analysis/
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/parsaasaber/olist-retail-analysis.git
+cd olist-retail-analysis
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 python -m pip install -r requirements.txt
 ```
 
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub repository details. On Windows, activate the environment using `.venv\Scripts\activate` instead.
+On Windows, activate the environment using `.venv\Scripts\activate` instead.
 
 ### 2. Download the original dataset
 
