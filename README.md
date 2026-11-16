@@ -19,8 +19,6 @@ An end-to-end data analytics portfolio project that transforms raw Brazilian e-c
 
 *Breakdown: top product categories, including unclassified products, and top customer states.*
 
-> **Adding or replacing screenshots:** Save your PNGs in the `screenshots/` folder using the filenames above, or edit the relative paths in this README. GitHub will display them automatically. These screenshots show the **ALL** year selection.
-
 ## Business questions
 
 - How did monthly delivered-order item sales value change over time?
